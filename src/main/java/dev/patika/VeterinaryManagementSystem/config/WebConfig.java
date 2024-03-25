@@ -12,6 +12,6 @@ public class WebConfig implements WebMvcConfigurer {
         registry.addMapping("http://localhost:5173","https://veterinary-management.vercel.app/")
                 .allowedOrigins("")
                 .allowedMethods("GET", "POST", "PUT", "DELETE");
-                .allowCredentials(true);
+                .allowCredentials(false);
     }
 }
