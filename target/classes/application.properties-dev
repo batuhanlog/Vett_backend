@@ -1,0 +1,7 @@
+spring.datasource.url=jdbc:postgresql://localhost:5432/vetmanagementdb
+spring.datasource.username=vetmanagementdb_user
+spring.datasource.password=tB2Kv9VokOvNQFRqq1ZNiCfpmTl8eobG
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+logging.level.org.hibernate.SQL=DEBUG
